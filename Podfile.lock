@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Core (1.0.3)
+  - Realm (10.20.1):
+    - Realm/Headers (= 10.20.1)
+  - Realm/Headers (10.20.1)
+  - RealmSwift (10.20.1):
+    - Realm (= 10.20.1)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - Core
+  - RealmSwift (~> 10.20)
+  - SDWebImageSwiftUI (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/dimspawn/The-Movie-Time-CorePodSpecs:
+    - Core
+  trunk:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Core: 3b4443f99655d4c77779a7396d88ac128e079252
+  Realm: fac5ecd031fcb81171627b74944c885662d4b266
+  RealmSwift: 9b02d25acb46a14756bde9893abb99e2e3675923
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+
+PODFILE CHECKSUM: 6c3e5c0339c652072549b3f6374c6facaf9cb8d2
+
+COCOAPODS: 1.11.2
