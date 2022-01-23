@@ -1,5 +1,0 @@
-language: swift
-osx_image: xcode13.2
-xcode_project: NewMovieTime.xcworkspace 
-xcode_scheme: TheMovieTime
-xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 11
