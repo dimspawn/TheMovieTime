@@ -20,12 +20,11 @@ jobs:
        run: ls /Applications | grep Xcode
 
      # Runs a single command using the runners shell
-     - name: Run a one-line script
+     - name: Run check Version
        run: sudo xcode-select -switch /Applications/Xcode_12.1.app && /usr/bin/xcodebuild -version
      - name: Install Dependencies
        run: |
-         cd TheMovieTime && ls
-         pod repo update
+         pod install
      # Runs a set of commands using the runners shell
      - name: Run a multi-line script
        run: |
