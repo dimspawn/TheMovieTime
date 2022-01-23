@@ -11,6 +11,9 @@
 		EF04661027968DDE002B8C9C /* Favorite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF04660F27968DDE002B8C9C /* Favorite.framework */; };
 		EF04661127968DDE002B8C9C /* Favorite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF04660F27968DDE002B8C9C /* Favorite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EF265F6E27683C8300F8DBC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF265F6D27683C8300F8DBC0 /* ProfileView.swift */; };
+		EF5CDC7C279D4B3B008C34C9 /* TheMovieTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC7B279D4B3B008C34C9 /* TheMovieTimeTests.swift */; };
+		EF5CDC89279D4B80008C34C9 /* TheMovieTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC88279D4B80008C34C9 /* TheMovieTimeUITests.swift */; };
+		EF5CDC8B279D4B80008C34C9 /* TheMovieTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CDC8A279D4B80008C34C9 /* TheMovieTimeUITestsLaunchTests.swift */; };
 		EF6F877027809DAD00ED9306 /* NowPlaying.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6F876F27809DAD00ED9306 /* NowPlaying.framework */; };
 		EF6F877127809DAD00ED9306 /* NowPlaying.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EF6F876F27809DAD00ED9306 /* NowPlaying.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EF941D73276395B1008E72D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF941D72276395B1008E72D0 /* AppDelegate.swift */; };
@@ -29,6 +32,23 @@
 		EFD0456B27874D8400FB0111 /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD0456A27874D8400FB0111 /* Detail.framework */; };
 		EFD0456C27874D8400FB0111 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFD0456A27874D8400FB0111 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5CDC7D279D4B3B008C34C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF941D67276395B1008E72D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF941D6E276395B1008E72D0;
+			remoteInfo = TheMovieTime;
+		};
+		EF5CDC8C279D4B80008C34C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF941D67276395B1008E72D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF941D6E276395B1008E72D0;
+			remoteInfo = TheMovieTime;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF6F876E27809D4500ED9306 /* Embed Frameworks */ = {
@@ -52,6 +72,11 @@
 		8C418F68795F0F0FD591968A /* Pods-TheMovieTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMovieTime.release.xcconfig"; path = "Target Support Files/Pods-TheMovieTime/Pods-TheMovieTime.release.xcconfig"; sourceTree = "<group>"; };
 		EF04660F27968DDE002B8C9C /* Favorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF265F6D27683C8300F8DBC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EF5CDC79279D4B3B008C34C9 /* TheMovieTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5CDC7B279D4B3B008C34C9 /* TheMovieTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieTimeTests.swift; sourceTree = "<group>"; };
+		EF5CDC86279D4B80008C34C9 /* TheMovieTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5CDC88279D4B80008C34C9 /* TheMovieTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieTimeUITests.swift; sourceTree = "<group>"; };
+		EF5CDC8A279D4B80008C34C9 /* TheMovieTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF6F876B27809D4500ED9306 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6F876F27809DAD00ED9306 /* NowPlaying.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NowPlaying.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF941D6F276395B1008E72D0 /* TheMovieTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +99,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF5CDC76279D4B3B008C34C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5CDC83279D4B80008C34C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF941D6C276395B1008E72D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,10 +157,29 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		EF5CDC7A279D4B3B008C34C9 /* TheMovieTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CDC7B279D4B3B008C34C9 /* TheMovieTimeTests.swift */,
+			);
+			path = TheMovieTimeTests;
+			sourceTree = "<group>";
+		};
+		EF5CDC87279D4B80008C34C9 /* TheMovieTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5CDC88279D4B80008C34C9 /* TheMovieTimeUITests.swift */,
+				EF5CDC8A279D4B80008C34C9 /* TheMovieTimeUITestsLaunchTests.swift */,
+			);
+			path = TheMovieTimeUITests;
+			sourceTree = "<group>";
+		};
 		EF941D66276395B1008E72D0 = {
 			isa = PBXGroup;
 			children = (
 				EF941D71276395B1008E72D0 /* TheMovieTime */,
+				EF5CDC7A279D4B3B008C34C9 /* TheMovieTimeTests */,
+				EF5CDC87279D4B80008C34C9 /* TheMovieTimeUITests */,
 				EF941D70276395B1008E72D0 /* Products */,
 				6C3C9A9BED9202D60AB9EEB3 /* Pods */,
 				BB86E47C7CCAE714F49D4BAD /* Frameworks */,
@@ -132,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				EF941D6F276395B1008E72D0 /* TheMovieTime.app */,
+				EF5CDC79279D4B3B008C34C9 /* TheMovieTimeTests.xctest */,
+				EF5CDC86279D4B80008C34C9 /* TheMovieTimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +293,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF5CDC78279D4B3B008C34C9 /* TheMovieTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5CDC81279D4B3B008C34C9 /* Build configuration list for PBXNativeTarget "TheMovieTimeTests" */;
+			buildPhases = (
+				EF5CDC75279D4B3B008C34C9 /* Sources */,
+				EF5CDC76279D4B3B008C34C9 /* Frameworks */,
+				EF5CDC77279D4B3B008C34C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5CDC7E279D4B3B008C34C9 /* PBXTargetDependency */,
+			);
+			name = TheMovieTimeTests;
+			productName = TheMovieTimeTests;
+			productReference = EF5CDC79279D4B3B008C34C9 /* TheMovieTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5CDC85279D4B80008C34C9 /* TheMovieTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5CDC8E279D4B80008C34C9 /* Build configuration list for PBXNativeTarget "TheMovieTimeUITests" */;
+			buildPhases = (
+				EF5CDC82279D4B80008C34C9 /* Sources */,
+				EF5CDC83279D4B80008C34C9 /* Frameworks */,
+				EF5CDC84279D4B80008C34C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5CDC8D279D4B80008C34C9 /* PBXTargetDependency */,
+			);
+			name = TheMovieTimeUITests;
+			productName = TheMovieTimeUITests;
+			productReference = EF5CDC86279D4B80008C34C9 /* TheMovieTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EF941D6E276395B1008E72D0 /* TheMovieTime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF941D83276395B2008E72D0 /* Build configuration list for PBXNativeTarget "TheMovieTime" */;
@@ -260,9 +356,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					EF5CDC78279D4B3B008C34C9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF941D6E276395B1008E72D0;
+					};
+					EF5CDC85279D4B80008C34C9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EF941D6E276395B1008E72D0;
+					};
 					EF941D6E276395B1008E72D0 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -282,11 +386,27 @@
 			projectRoot = "";
 			targets = (
 				EF941D6E276395B1008E72D0 /* TheMovieTime */,
+				EF5CDC78279D4B3B008C34C9 /* TheMovieTimeTests */,
+				EF5CDC85279D4B80008C34C9 /* TheMovieTimeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF5CDC77279D4B3B008C34C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5CDC84279D4B80008C34C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF941D6D276395B1008E72D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +462,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF5CDC75279D4B3B008C34C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5CDC7C279D4B3B008C34C9 /* TheMovieTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5CDC82279D4B80008C34C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5CDC8B279D4B80008C34C9 /* TheMovieTimeUITestsLaunchTests.swift in Sources */,
+				EF5CDC89279D4B80008C34C9 /* TheMovieTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF941D6B276395B1008E72D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +499,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EF5CDC7E279D4B3B008C34C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF941D6E276395B1008E72D0 /* TheMovieTime */;
+			targetProxy = EF5CDC7D279D4B3B008C34C9 /* PBXContainerItemProxy */;
+		};
+		EF5CDC8D279D4B80008C34C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF941D6E276395B1008E72D0 /* TheMovieTime */;
+			targetProxy = EF5CDC8C279D4B80008C34C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		EF941D7D276395B2008E72D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -374,6 +524,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF5CDC7F279D4B3B008C34C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginatic.dimspawn.TheMovieTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMovieTime.app/TheMovieTime";
+			};
+			name = Debug;
+		};
+		EF5CDC80279D4B3B008C34C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginatic.dimspawn.TheMovieTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMovieTime.app/TheMovieTime";
+			};
+			name = Release;
+		};
+		EF5CDC8F279D4B80008C34C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginatic.dimspawn.TheMovieTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheMovieTime;
+			};
+			name = Debug;
+		};
+		EF5CDC90279D4B80008C34C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imaginatic.dimspawn.TheMovieTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheMovieTime;
+			};
+			name = Release;
+		};
 		EF941D81276395B2008E72D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -547,6 +767,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF5CDC81279D4B3B008C34C9 /* Build configuration list for PBXNativeTarget "TheMovieTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5CDC7F279D4B3B008C34C9 /* Debug */,
+				EF5CDC80279D4B3B008C34C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5CDC8E279D4B80008C34C9 /* Build configuration list for PBXNativeTarget "TheMovieTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5CDC8F279D4B80008C34C9 /* Debug */,
+				EF5CDC90279D4B80008C34C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EF941D6A276395B1008E72D0 /* Build configuration list for PBXProject "TheMovieTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
