@@ -21,7 +21,7 @@ jobs:
 
      # Runs a single command using the runners shell
      - name: Run check Version
-       run: sudo xcode-select -switch /Applications/Xcode_12.1.app && /usr/bin/xcodebuild -version
+       run: sudo xcode-select -switch /Applications/Xcode.app && /usr/bin/xcodebuild -version
      - name: Install Dependencies
        run: |
          pod install
