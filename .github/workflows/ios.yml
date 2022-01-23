@@ -30,4 +30,4 @@ jobs:
      - name: Run a multi-line script
        run: |
           xcrun xctrace list devices
-          xcodebuild test -workspace NewMovieTime.xcworkspace -scheme TheMovieTime -destination "platform=iOS Simulator,name=iPhone 11,OS=15.0"
+          xcodebuild test -workspace NewMovieTime.xcworkspace -scheme TheMovieTime -destination "platform=iOS Simulator,name=iPhone 11,OS=14.1"
