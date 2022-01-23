@@ -7,39 +7,34 @@ use_frameworks!
 
 workspace 'NewMovieTime'
 
-def net_pods
-pod 'Alamofire', '~> 5.5'
-end
-
-def shared_pods
-pod 'RealmSwift', '~> 10.20'
-pod 'SDWebImageSwiftUI', '~> 2.0'
-end
-
 target 'TheMovieTime' do
 use_frameworks!
-net_pods
-shared_pods
+pod 'Alamofire', '~> 5.5'
+pod 'RealmSwift', '~> 10.20'
+pod 'SDWebImageSwiftUI', '~> 2.0'
 pod 'Core'
 end
 
 target 'NowPlaying' do
 project './Module/NowPlaying/NowPlaying'
-net_pods
-shared_pods
+pod 'Alamofire', '~> 5.5'
+pod 'RealmSwift', '~> 10.20'
+pod 'SDWebImageSwiftUI', '~> 2.0'
 pod 'Core'
 end
 
 target 'Favorite' do
 project './Module/Favorite/Favorite'
-shared_pods
+pod 'RealmSwift', '~> 10.20'
+pod 'SDWebImageSwiftUI', '~> 2.0'
 pod 'Core'
 end
 
 target 'Detail' do
 project './Module/Detail/Detail'
-net_pods
-shared_pods
+pod 'Alamofire', '~> 5.5'
+pod 'RealmSwift', '~> 10.20'
+pod 'SDWebImageSwiftUI', '~> 2.0'
 pod 'Core'
 end
 
@@ -49,5 +44,5 @@ end
 
 target 'Common' do
 project './Module/Common/Common'
-shared_pods
+pod 'RealmSwift', '~> 10.20'
 end
