@@ -99,5 +99,6 @@ struct NowPlayingView<
             }
         }
         .navigationTitle("The Movie Time")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

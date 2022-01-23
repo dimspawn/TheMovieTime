@@ -70,5 +70,6 @@ struct FavoriteView<DetailRouter: View>: View {
         }
         .background(Color.movieBackground)
         .navigationTitle("Favorites Movie")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
